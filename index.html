@@ -4,20 +4,27 @@
     <head>
         <meta charset="UTF-8">
         <title>Psychic Game</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <script src="assets/javascript/game.js"></script>
     </head>
 
     <body>
-        <h1>The Psychic Game</h1>
+    
+        <div class="row">
+            <div class="col-md-6 gamebody">
 
-        <h3>Guess What Letter I'm Thinking Of...</h3>
+                <h1>The Psychic Game</h1>    
+                <h3>Guess What Letter I'm Thinking Of...</h3>
+    
+                <p>Wins: <span id="p_wins">0</span></p>
+                <p>Losses: <span id="p_loss">0</span></p>
+                <p>Guesses Left: <span id="p_guess">0</span></p>
+                <p>Your Guesses So Far: <span id="p_guessed"></span></p>
+                <p id="game_msg"></p>
 
-        <p>Wins: <span id="p_wins">0</span></p>
-        <p>Losses: <span id="p_loss">0</span></p>
-        <p>Guesses Left: <span id="p_guess">0</span></p>
-        <p>Your Guesses So Far: <span id="p_guessed"></span></p>
-        <p id="game_msg"></p>
+            </div>
+        </div>
     </body>
 
 </html>

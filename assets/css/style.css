@@ -1,0 +1,24 @@
+body
+{
+    background-color: darkcyan;
+}
+
+h1, #p_wins, #p_loss,
+#p_guess, #p_guessed, #game_msg
+{
+    color: white;
+}
+
+.gamebody
+{
+    text-align: center;
+    color: darkseagreen;
+    font-size: 20px;
+    font-family: 'Lacquer', sans-serif;
+    background-image: url("../images/psytrip2.gif");
+    background-size: cover;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: 6px inset white;
+}
