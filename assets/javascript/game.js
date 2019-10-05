@@ -57,6 +57,7 @@ document.onkeyup = function (event)
                 gameActive = false; // The game has ended, user has no guesses left
                 lossSound.play();
                 losses++;
+                document.getElementById("p_guess").textContent = guessesLeft;
                 document.getElementById("p_loss").textContent = losses;
                 document.getElementById("game_msg").textContent = "You Have Lost...Correct Letter: " + randomKey + ". 'SPACE' to play again!";
             }
